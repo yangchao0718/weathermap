@@ -1,4 +1,4 @@
-FROM openjdk:8u181-jdk-alpine
+FROM openjdk:11.0.14-jdk-slim-bullseye
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone
